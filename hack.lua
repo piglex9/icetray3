@@ -37,21 +37,26 @@ local function loadSynapseFunction()
     if not request then
         error(global.getExecutor)
     end
-    global.functions.getproto = debug.getproto or ("debug.getproto does not exist")
-    global.functions.getreg = debug.getregistry or getreg or ("debug.getregistery does not exist")
-    global.functions.getupvalues = debug.getupvalues or ("debug.getupvalues does not exist")
-    global.functions.getconstants = debug.getconstants or ("debug.getconstants does not exist")
-    global.functions.getconstant = debug.getconstant or ("debug.getconstant does not exist")
-    global.functions.setconstant = debug.setconstant or ("debug.setconstant does not exist")
-    global.functions.getupvalue = debug.getupvalue or ("debug.getupvalue does not exist")
-    global.functions.setupvalue = debug.setupvalue or ("debug.setupvalue does not exist")
-    global.functions.getprotos = debug.getprotos or ("debug.getprotos does not exist")
-    global.functions.getrawmetatable = getrawmetatable or ("getrawmetatable does not exist")
-    global.functions.setreadonly = setreadonly or make_writeable or ("setreadonly/make_writeable does not exist")
-    global.functions.newcclosure = newcclosure or ("newcclosure does not exist")
-    global.functions.setclipboard = setclipboard or ("setclipboard does not exist")
-    global.functions.islclosure = islclosure or ("islclosure does not exist")
-    global.functions.is_synapse_function = is_synapse_function or ("is_synapse_function does not exist")
+    global.functions.getproto = debug.getproto or "debug.getproto does not exist"
+    global.functions.getreg = debug.getregistry or getreg or "debug.getregistery does not exist"
+    global.functions.getupvalues = debug.getupvalues or "debug.getupvalues does not exist"
+    global.functions.getconstants = debug.getconstants or "debug.getconstants does not exist"
+    global.functions.getconstant = debug.getconstant or "debug.getconstant does not exist"
+    global.functions.setconstant = debug.setconstant or "debug.setconstant does not exist"
+    global.functions.getupvalue = debug.getupvalue or "debug.getupvalue does not exist"
+    global.functions.setupvalue = debug.setupvalue or "debug.setupvalue does not exist"
+    global.functions.getprotos = debug.getprotos or "debug.getprotos does not exist"
+    global.functions.getrawmetatable = getrawmetatable or "getrawmetatable does not exist"
+    global.functions.setreadonly = setreadonly or make_writeable or "setreadonly/make_writeable does not exist"
+    global.functions.newcclosure = newcclosure or "newcclosure does not exist"
+    global.functions.setclipboard = setclipboard or "setclipboard does not exist"
+    global.functions.islclosure = islclosure or "islclosure does not exist"
+    global.functions.is_synapse_function = is_synapse_function or "is_synapse_function does not exist"
+    for i,v in next, global.functions do
+        if type(v) == "string" and string.find(v, "does not exist") then
+            error(v)
+        end
+    end
 end
 
 local function loopService()
@@ -78,13 +83,13 @@ local function loopService()
     end)
 end
 
-local functionLoad, err = pcall(function()
+local functionload, err = pcall(function()
     service()
     loadSynapseFunction()
     loopService()
 end)
 
-if not functionLoad then
+if not functionload then
     error(err)
 end
 
@@ -95,7 +100,7 @@ if not global.ui then
     local thumbType = Enum.ThumbnailType.HeadShot
     local thumbSize = Enum.ThumbnailSize.Size420x420
     local content, isReady = players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-    local window = icetray.CreateWindow(name, content)
+    local window = icetray.CreateWindow("ice tray v3", content)
     global.ui = {}
     global.ui.window = {}
     global.ui.player = {}
