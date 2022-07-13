@@ -95,7 +95,7 @@ if not global.ui then
     local thumbType = Enum.ThumbnailType.HeadShot
     local thumbSize = Enum.ThumbnailSize.Size420x420
     local content, isReady = players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-    local window = icetray.CreateWindow("ice tray v3", content)
+    local window = icetray.CreateWindow(name, content)
     global.ui = {}
     global.ui.window = {}
     global.ui.player = {}
