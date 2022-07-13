@@ -10,7 +10,6 @@ function icetray.CreateWindow(libName, logoId)
     if a then
         a:Destroy()
     end
-    
     local IceTrayLib = Instance.new("ScreenGui")
     local shadow = Instance.new("ImageLabel")
     local MainFrame = Instance.new("Frame")
@@ -20,10 +19,8 @@ function icetray.CreateWindow(libName, logoId)
     local underCover = Instance.new("Frame")
     local hubLogo = Instance.new("ImageLabel")
     local MainCorner_2 = Instance.new("UICorner")
-
     local hubName = Instance.new("TextLabel")
     local hubUIGradient = Instance.new("UIGradient")
-
     local tabFrame = Instance.new("ScrollingFrame")
     local UIListLayout = Instance.new("UIListLayout")
     
