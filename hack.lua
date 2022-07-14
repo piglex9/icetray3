@@ -295,6 +295,7 @@ local function loadup()
                             local con = getconstants(v2)
                             if table.find(con, "ShouldArrest") then
                                 global.gc.shouldArrest = getupvalue(getupvalue(v2,1),7)
+                                -- does not work w/ latest update cause they obfuscated LocalScript
                                 --global.gc.shouldPickpocket = getupvalue(getupvalue(v2,2),2)
                                 --global.gc.shouldBreakout = getupvalue(getupvalue(v2,3),2)
                             end
