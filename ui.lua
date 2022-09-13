@@ -2,6 +2,19 @@
 -- UI.LUA
 -- alex9#0001
 
+local global = {}
+local env = getrenv()
+env.workspace = game:GetService("Workspace")
+env.repl = game:GetService("ReplicatedStorage")
+env.players = game:GetService("Players")
+env.httpservice = game:GetService("HttpService")
+env.runservice = game:GetService("RunService")
+env.uis = game:GetService("UserInputService")
+env.teleportservice = game:GetService("TeleportService")
+env.tweenservice = game:GetService("TweenService")
+env.teams = game:GetService("Teams")
+env.global = global
+
 local icetray = {}
 
 function icetray.CreateWindow(libName, logoId)
@@ -10,6 +23,7 @@ function icetray.CreateWindow(libName, logoId)
     if a then
         a:Destroy()
     end
+    
     local IceTrayLib = Instance.new("ScreenGui")
     local shadow = Instance.new("ImageLabel")
     local MainFrame = Instance.new("Frame")
@@ -19,8 +33,10 @@ function icetray.CreateWindow(libName, logoId)
     local underCover = Instance.new("Frame")
     local hubLogo = Instance.new("ImageLabel")
     local MainCorner_2 = Instance.new("UICorner")
+
     local hubName = Instance.new("TextLabel")
     local hubUIGradient = Instance.new("UIGradient")
+
     local tabFrame = Instance.new("ScrollingFrame")
     local UIListLayout = Instance.new("UIListLayout")
     
@@ -1264,5 +1280,40 @@ function icetray.CreateWindow(libName, logoId)
     end
     return TabHandling
 end
+
+while true do
+    if game:IsLoaded() then
+        break
+    end
+    task.wait()
+end
+
+local player = players.LocalPlayer
+local userId = player.UserId
+local thumbType = Enum.ThumbnailType.HeadShot
+local thumbSize = Enum.ThumbnailSize.Size420x420
+local content, isReady = players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+local window = icetray.CreateWindow("ice tray v3", content)
+local plr = window:Tab("Player")
+local vehicle = window:Tab("Vehicle")
+local misc = window:Tab("Misc")
+local combat = window:Tab("Combat")
+local visuals = window:Tab("Visuals")
+local info = window:Tab("Info")
+global.ui = {}
+global.ui.window = {}
+global.ui.player = {}
+global.ui.vehicle = {}
+global.ui.misc = {}
+global.ui.combat = {}
+global.ui.visuals = {}
+global.ui.info = {}
+global.ui.window.tab = window
+global.ui.player.tab = plr
+global.ui.visuals.tab = visuals
+global.ui.misc.tab = misc
+global.ui.vehicle.tab = vehicle
+global.ui.combat.tab = combat
+global.ui.info.tab = info
 
 return icetray
