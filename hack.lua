@@ -1,6 +1,6 @@
 -- ICETRAY V3
 -- HACK.LUA 3
--- alex9#1260
+-- alex9#0001
 
 local jb = game.PlaceId == 606849621
 if not jb then
