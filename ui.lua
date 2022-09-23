@@ -160,8 +160,8 @@ function icetray.CreateWindow(libName, logoId)
     usename.TextWrapped = true
     usename.TextXAlignment = Enum.TextXAlignment.Left
 
-    if #usename.Text > 12 then
-        usename.TextSize = 9.000
+    if #usename.Text > 14 then
+        usename.TextSize = 11.00
     end
 
     usenameUIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(166, 186, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(166, 186, 255))}
@@ -230,7 +230,7 @@ function icetray.CreateWindow(libName, logoId)
     function TabHandling:Tab(tabText, tabId)
         local tabBtnFrame = Instance.new("Frame")
         local tabBtn = Instance.new("TextButton")
-        local tabLogo = Instance.new("ImageLabel")
+        --local tabLogo = Instance.new("ImageLabel")
 
         --
         tabText = tabText or "Tab"
