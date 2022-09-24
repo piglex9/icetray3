@@ -10,4 +10,6 @@ supported executors:
 
 other exploits will NOT work.
 
+💀 We ban cheaters. Don't cheat!
+
 alex9#0001
