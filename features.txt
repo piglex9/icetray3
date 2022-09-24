@@ -1,4 +1,4 @@
-icetray features as of 24.09.2022 (3.0)
+icetray features as of 25.09.2022 (3.0.1)
 
 Player:
 	- Player:
@@ -26,6 +26,8 @@ Misc:
 		  Disable Turrets
 		  Break NPCs
 		  Allow Equip on Duck
+		  Remove Clothing
+		  Give Police Clothing
 	- Open doors
 Combat:
 	- Gun Mods:
@@ -33,6 +35,7 @@ Combat:
 	- Arrest Aura:
 		  Range
 		  Automatic Equip Handcuffs
+		  Automatic Eject Player
 Visuals:
 	- Markers:
 		  Allow Criminal Marker
