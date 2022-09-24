@@ -1,6 +1,9 @@
--- ICETRAY V3
+-- ICETRAY pre-V3
 -- HACK.LUA 3
 -- alex9#0001
+
+--This is not the latest version
+--Source from 8 July 2022
 
 local jb = game.PlaceId == 606849621
 if not jb then
