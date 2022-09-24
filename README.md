@@ -1,11 +1,12 @@
 # icetray3
-version 3
 
-an older unfinished version of private Roblox Jailbreak hack "icetray3"
+ROBLOX JAILBREAK SCRIPT "ICE TRAY"
 
-UI creator unknown, took it from google and modified it a bit.
-https://www.roblox.com/games/606849621/Jailbreak
+game: https://www.roblox.com/games/606849621/Jailbreak
 
-not all files are on here.
+supported executors:
+   - PAID: Synapse X (https://x.synapse.to/)
+   - FREE: Oxygen U (https://oxygenu.xyz/)
+.. other exploits will NOT work.
 
 alex9#0001
