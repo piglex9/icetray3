@@ -1,6 +1,6 @@
 -- ICETRAY V3
 -- UI.LUA
--- created by ? modified by alex9#0001
+-- created by ? modified by alex9#0001 for JAILBREAK ICE TRAY script
 
 local global = {}
 local env = getrenv()
