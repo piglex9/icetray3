@@ -36,6 +36,8 @@ Combat:
 		  Range
 		  Automatic Equip Handcuffs
 		  Automatic Eject Player
+		  Trashtalk on Arrest
+	- Silentaim
 Visuals:
 	- Markers:
 		  Allow Criminal Marker
@@ -46,6 +48,8 @@ Info:
 	- Version
 	- Set discord link to clipboard
 	- Force Join discord
+	- Reveal тима
+	- Hide Username
 
 more features soonTM
 - alex9#0001
