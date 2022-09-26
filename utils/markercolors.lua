@@ -1,8 +1,4 @@
-local colors = { -- DEFAULT COLORS FOR PLAYERMARKERS
-    Prisoner = Color3.fromRGB(253, 148, 81);
-    Police = Color3.fromRGB(84, 215, 253);
-    Criminal = Color3.fromRGB(253, 100, 30);
-}
+local colors = {}
 
 function colors.new(name, color)
     assert(name, "Name missing")
