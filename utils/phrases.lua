@@ -1,5 +1,5 @@
 local phrases = {
-    "JOIN ICE TRAY - DIS . GG /5Eqt6QBfYY";
+    "🤑 JOIN ICE TRAY - DIS . GG /5Eqt6QBfYY";
     "соси молча";
     "ахахахаха нубик 🤣";
     "шкила безскиловая";
