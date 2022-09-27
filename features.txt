@@ -38,7 +38,7 @@ Combat:
 		  Range
 		  Automatic Equip Handcuffs
 		  Automatic Eject Player
-		  Trashtalk on Arrest
+		  Talk on Arrest
 	- Silentaim
 Visuals:
 	- Markers:
