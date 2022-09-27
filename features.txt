@@ -1,4 +1,4 @@
-icetray features as of 25.09.2022 (3.0.2):
+icetray features as of 27.09.2022 (3.0.3):
 
 Player:
 	- Player:
@@ -20,6 +20,7 @@ Vehicle:
 	- Misc:
 		  Infinite Nitro
 		  Allow Equip in Vehicle
+		  Hide Name In Vehicle
 Misc:
 	- Misc:
 		  Always Keycard
@@ -32,6 +33,7 @@ Misc:
 Combat:
 	- Gun Mods:
 		  Automatic Fire
+		  No Recoil
 	- Arrest Aura:
 		  Range
 		  Automatic Equip Handcuffs
