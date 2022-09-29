@@ -1,5 +1,5 @@
 -- kind of messy
-assert(global, "synapse_functions.lua cannot run without ICETRAY.GLOBAL")
+assert(global, "synapse_functions.lua cannot run without icetray.global")
 
 global.functions = {}
 local function synapse_functions()
