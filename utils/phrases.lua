@@ -5,9 +5,11 @@ local phrases = {
     "ахахахаха нубик 🤣";
     "шкила безскиловая";
     "если-бы использовал ice tray, тебя-бы не арестовали";
+    "👍INFINITE MONEY FREE HACK (NO VIRUS👍 NO SCAM 👍 TRUSTED 2022) JOIN: - DIS . GG /5Eqt6QBfYY";
     "бот";
     "мать в канаве";
-    "HACK JAILBREAK FREE 2022 😎 NO VIRUS NO BAN 👍 JOIN: - DIS . GG /5Eqt6QBfYY";
+    "🤑UNLIMITED MONEY 🤑 FREE HACK JOIN: DIS . GG /5Eqt6QBfYY";
+    "HACK JAILBREAK FREE 2022 😎 NO VIRUS 👍 NO BAN 👍 JOIN: - DIS . GG /5Eqt6QBfYY";
     "безмамный";
     "поной";
     "FREE HACK JOIN (NO BAN): - DIS . GG /5Eqt6QBfYY";
