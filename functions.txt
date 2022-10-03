@@ -1,0 +1,33 @@
+# ice tray requires those functions:
+
+- request
+- setclipboard
+- identifyexecutor
+- hookfunction
+- getrawmetatable
+- setreadonly (or make_writeable)
+- newcclosure
+- islclosure
+- is_synapse_function
+- getsynasset (or getcustomasset, for Oxygen)
+- fireclickdetector
+- firetouchdetector
+
+# DEBUG LIB
+- debug.getregistry (or getreg)
+- debug.getconstants
+- debug.getconstant
+- debug.setconstant
+- debug.getupvalues
+- debug.getupvalue
+- debug.setupvalue
+- debug.getproto
+- (not required - used for testing only) debug.getprotos
+
+# FILESYSTEM
+
+- writefile
+- appendfile
+- makefolder
+- isfile
+- isfolder
