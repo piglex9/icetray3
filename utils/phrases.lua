@@ -1,4 +1,5 @@
 local phrases = {
+    "alex9 gave me hack free JOIN: - DIS . GG /icetray";
     "🤑 JOIN ICE TRAY NOW - DIS . GG /icetray";
     "SPEED HACK ICE TRAY JOIN😊 - DIS . GG /icetray";
     "соси молча";
