@@ -10,6 +10,8 @@
 - islclosure
 - is_synapse_function
 - getsynasset (or getcustomasset, for Oxygen)
+- getgenv (used for Hazed's old keysystem)
+- getrenv
 
 # DEBUG LIB
 - debug.getregistry (or getreg)
