@@ -7,12 +7,12 @@
 - newcclosure
 - islclosure
 - is_synapse_function
-- getsynasset (or getcustomasset, for Oxygen)
+- getsynasset (or getcustomasset)
 - getgenv (used for Hazed's old keysystem)
 - getrenv
 
 # DEBUG LIB
-- debug.getregistry (or getreg)
+- debug.getregistry
 - debug.getconstants
 - debug.setconstant
 - debug.getupvalues
