@@ -10,8 +10,6 @@
 - islclosure
 - is_synapse_function
 - getsynasset (or getcustomasset, for Oxygen)
-- fireclickdetector
-- firetouchdetector
 
 # DEBUG LIB
 - debug.getregistry (or getreg)
@@ -22,7 +20,6 @@
 - debug.getupvalue
 - debug.setupvalue
 - debug.getproto
-- (not required - used for testing only) debug.getprotos
 
 # FILESYSTEM
 
