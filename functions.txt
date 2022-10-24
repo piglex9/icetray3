@@ -3,7 +3,6 @@
 - request
 - setclipboard
 - identifyexecutor
-- hookfunction
 - getrawmetatable
 - setreadonly (or make_writeable)
 - newcclosure
