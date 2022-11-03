@@ -11,6 +11,7 @@
 - getgenv (only used for Hazed's old keysystem)
 - getrenv
 - firetouchinterest
+- fireclickdetector
 
 # DEBUG LIB
 - debug.getregistry
