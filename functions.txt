@@ -6,12 +6,13 @@
 - setreadonly (or make_writeable)
 - newcclosure
 - islclosure
+- firetouchinterest
 - is_synapse_function
+- fireclickdetector
 - getsynasset (or getcustomasset)
 - getgenv (only used for Hazed's old keysystem)
 - getrenv
-- firetouchinterest
-- fireclickdetector
+- getconnections
 
 # DEBUG LIB
 - debug.getregistry
