@@ -8,8 +8,9 @@
 - islclosure
 - is_synapse_function
 - getsynasset (or getcustomasset)
-- getgenv (used for Hazed's old keysystem)
+- getgenv (only used for Hazed's old keysystem)
 - getrenv
+- firetouchinterest
 
 # DEBUG LIB
 - debug.getregistry
