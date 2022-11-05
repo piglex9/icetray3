@@ -1,57 +1,102 @@
-icetray features as of 27.09.2022 (3.0.3):
+icetray features as of 05.11.2022 (3.4d):
 
 Player:
-	- Player:
-		  Walk Speed
-		  Jump Power
-		  Anti Ragdoll
-		  Anti Skydive
-		  Always Jump
+	- Speed/JumpPower:
+		Walk Speed
+		Jump Power
+	- Utils:
+		Anti Ragdoll
+		Anti Skydive
+		Anti Falldamage
+		Anti Taze
 	- Misc:
-		  No Wait
-		  Infinite Duck
-		  Infinite Punch
-Vehicle:
-	- Car Modifications:
-		  Speed
-		  Brakes
-		  Turn Speed
-		  Height
-	- Misc:
-		  Infinite Nitro
-		  Allow Equip in Vehicle
-		  Hide Name In Vehicle
-Misc:
-	- Misc:
-		  Always Keycard
-		  Disable Turrets
-		  Break NPCs
-		  Allow Equip on Duck
-		  Remove Clothing
-		  Give Police Clothing
-	- Open doors
+		Infinite Duck
+		Infinite Punch
+		Always Jump
+		Allow Equip on Duck
+		Allow Equip with Items
 Combat:
 	- Gun Mods:
-		  Automatic Fire
-		  No Recoil
+		Automatic Fire
+		No Recoil
+	- Silent Aim:
+		FOV
+		FOV Circle
+		Movement Prediction
+		Automatic Shoot
 	- Arrest Aura:
-		  Range
-		  Automatic Equip Handcuffs
-		  Automatic Eject Player
-		  Talk on Arrest
-	- Silentaim
-Visuals:
-	- Markers:
-		  Allow Criminal Marker
-		  Allow Prisoner Marker
-		  Allow Police Marker
+		Range
+		Automatic Equip Handcuffs
+		Automatic Eject Player
+		Talk on Arrest
+Vehicle:
+	- Car Modifications:
+		Speed
+		Brakes
+		Turn Speed
+		Height
+	- Heli Modifications:
+		Speed
+		Infinite Heli Height
+	- Misc:
+		Infinite Nitro
+		Anti Tirepop
+		Allow Equip in Vehicle
+		Hide Name In Vehicle
+		Show Hotbar in Vehicle
+Misc:
+	- Misc:
+		Open Gunstore UI
+		Equip Owned Guns
+		Always Keycard
+		Open All Doors
+		No Equip Cooldown
+		No Circle Delay
+		Never Unload World
+		Erupt Volcano
+		Remove Clothing
+		Give Police Clothing
+	- Pickpocket Aura
+	- Dropped Cash Aura
+	- Disablers:
+		Disable Lasers
+		Disable Cameras
+		Disable Military Turrets
+		Disable Smoke Grenade Effect
+Markers:
+	- Teams:
+		Allow Criminal Marker
+		Allow Prisoner Marker
+		Allow Police Marker
+	- Objects:
+		Allow Airdrop Marker
+Robbery:
+	- Bank:
+		Automatic Touch Vault
+	- Museum:
+		Automatic Fill Bag
+		Break Museum Puzzle
+	- Casino:
+		Automatic Collect Loot
+		Break Elevator
+		Hack Nearby Computers
+		Reveal Keycode
+	- Airdrop:
+		Break NPCs
+	- Powerplant:
+		Automatic Resolve Puzzle
+		Disable Powerplant Damage
+	- Tomb:
+		Disable Tomb Damage
+	- Cargoship:
+		Disable Cargoship Turrets
 Info:
 	- Credits
 	- Version
 	- Set discord link to clipboard
 	- Force Join discord
-	- Reveal тима
 	- Hide Username
+	- UI Keybind
 
 more features soonTM
 - alex9#0001
