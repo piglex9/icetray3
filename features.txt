@@ -1,4 +1,4 @@
-icetray features as of 05.11.2022 (3.4d):
+icetray features as of 06.11.2022 (3.4e):
 
 Player:
 	- Speed/JumpPower:
@@ -48,6 +48,7 @@ Misc:
 	- Misc:
 		Open Gunstore UI
 		Equip Owned Guns
+		Spam Drop Items
 		Always Keycard
 		Open All Doors
 		No Equip Cooldown
