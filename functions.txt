@@ -10,7 +10,7 @@
 - is_synapse_function
 - fireclickdetector
 - getsynasset (or getcustomasset)
-- getgenv (only used for Hazed's old keysystem)
+- getgenv
 - getrenv
 - getconnections
 
