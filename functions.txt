@@ -1,4 +1,4 @@
-# ice tray requires those functions:
+# ice tray requires those functions, if one is missing the script will NOT run:
 
 - setclipboard
 - identifyexecutor
