@@ -1,4 +1,4 @@
-icetray features as of 06.11.2022 (3.4e):
+icetray features as of 15.11.2022 (3.5):
 
 Player:
 	- Speed/JumpPower:
@@ -46,17 +46,19 @@ Vehicle:
 		Show Hotbar in Vehicle
 Misc:
 	- Misc:
-		Open Gunstore UI
-		Equip Owned Guns
-		Spam Drop Items
 		Always Keycard
 		Open All Doors
 		No Equip Cooldown
 		No Circle Delay
 		Never Unload World
+		Open Security Cameras
 		Erupt Volcano
 		Remove Clothing
 		Give Police Clothing
+	- Gun Store:
+		Open Gunstore UI
+		Equip Owned Guns
+		Spam Drop Items
 	- Pickpocket Aura
 	- Dropped Cash Aura
 	- Disablers:
@@ -71,6 +73,8 @@ Markers:
 		Allow Police Marker
 	- Objects:
 		Allow Airdrop Marker
+	- Settings:
+		No Robbery Marker Delay
 Robbery:
 	- Bank:
 		Automatic Touch Vault
@@ -86,18 +90,22 @@ Robbery:
 		Break NPCs
 	- Powerplant:
 		Automatic Resolve Puzzle
-		Disable Powerplant Damage
+		Disable Piston Damage
+		Disable Powerwire Damage
 	- Tomb:
-		Disable Tomb Damage
+		Disable Darts
+		Disable Wood Damage
+		Disable Spike Damage
+		Disable Lava Damage
 	- Cargoship:
-		Disable Cargoship Turrets
+		Disable Turrets
 Info:
 	- Credits
 	- Version
 	- Set discord link to clipboard
-	- Force Join discord
-	- Hide Username
-	- UI Keybind
+	- Force join discord
+	- Hide UI Username
+	- UI Toggle Keybind
 
 more features soonTM
 - alex9#0001
