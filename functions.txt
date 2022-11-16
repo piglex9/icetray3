@@ -33,3 +33,4 @@
 - makefolder
 - isfile
 - isfolder
+- readfile
