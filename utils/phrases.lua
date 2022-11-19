@@ -3,7 +3,7 @@ local phrases = {
     "become good w/ ice tray, join: DIS.GG/icetray";
     "eu sunt boss, folosesc ice tray, tu esti un sclav";
     "prea usor cu ice tray";
-    "UNDETECTED HACK ICE TRAY FREE DOWNLOAD - DIS . GG /icetray";
+    "UNDETECTED HACK ICE TRAY FREE DOWNLOAD - DIS.GG/icetray";
     "🤑 JOIN ICE TRAY NOW - DIS . GG /icetray";
     "SPEED HACK ICE TRAY JOIN😊 - DIS . GG /icetray";
     "соси молча";
