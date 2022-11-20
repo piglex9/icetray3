@@ -3,7 +3,7 @@ icetray version 3.7 features as of 20.11.2022 and what they do:
 
 [tab]:
 	[section]:
-		[name of feature]: - what it does
+		[name of feature] - [what it does]
 		
 
 
