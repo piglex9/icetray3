@@ -34,7 +34,7 @@ Combat:
 		Movement Prediction - attempts to predict next movement of your target
 		Penetrate Walls - lets you shoot through walls
 		Automatic Shoot - automatically shoots with silent aim (penetrate walls needs to be enabled for now)
-	- Arrest Aura: (you have to be on the Police team)
+	- Arrest Aura: ⚠️ (you have to be on the Police team) ⚠️
 		Master Switch - enables arrest aura
 		Range - range of arrest aura
 		Automatic Equip Handcuffs - equips handcuffs automatically
