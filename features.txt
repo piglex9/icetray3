@@ -91,7 +91,7 @@ Misc:
 		Disable Smoke Grenade Effect - disables smoke grenade effect
 Markers:
 	- Marker:
-		Master Switch - enables Markers section ⚠️ (you must enable this for any of the markers to work) ⚠️
+		Master Switch - enables Markers section ⚠️ (you must enable this for any of the markers to spawn) ⚠️
 	- Teams:
 		Allow Criminal Marker - allows markers to spawn on players that are on the criminal team
 		Allow Prisoner Marker - allows markers to spawn on players that are on the prisoner team
