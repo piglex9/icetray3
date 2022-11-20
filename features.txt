@@ -1,111 +1,139 @@
-icetray features as of 15.11.2022 (3.5):
+icetray version 3.7 features as of 20.11.2022 and what they do:
+
+
+[tab]:
+	[section]:
+		[name of feature]: - what it does
+		
+
 
 Player:
-	- Speed/JumpPower:
-		Walk Speed
-		Jump Power
+	- Walk Speed/JumpPower:
+		Master Switch - enables them
+		Value - value of speed/jumppower
+		Disable If Handcuffed - disables them if handcuffed
 	- Utils:
-		Anti Ragdoll
-		Anti Skydive
-		Anti Falldamage
-		Anti Taze
+		Anti Ragdoll - disables ragdoll
+		Anti Skydive - disables skydive (do NOT enable while skydiving)
+		Anti Falldamage - disables falldamage
+		Anti Taze - disables taze ragdoll
 	- Misc:
-		Infinite Duck
-		Infinite Punch
-		Always Jump
-		Allow Equip on Duck
-		Allow Equip with Items
+		Infinite Duck - lets you to spam crawling
+		Infinite Punch - lets you to punch faster
+		Always Jump - lets you jump while holding spacebar
+		Allow Equip on Duck - lets you equip items while crawling
+		Allow Equip with Items - lets you unequip items that are locked
 Combat:
 	- Gun Mods:
-		Automatic Fire
-		No Recoil
+		Automatic Fire - makes weapons automatic
+		No Recoil - removes weapons recoil
 	- Silent Aim:
-		FOV
-		FOV Circle
-		Movement Prediction
-		Automatic Shoot
-	- Arrest Aura:
-		Range
-		Automatic Equip Handcuffs
-		Automatic Eject Player
-		Talk on Arrest
+		Master Switch - enables silent aim
+		FOV - field of view
+		FOV Circle - circle
+		Movement Prediction - attempts to predict next movement of your target
+		Penetrate Walls - lets you shoot through walls
+		Automatic Shoot - automatically shoots with silent aim (penetrate walls needs to be enabled for now)
+	- Arrest Aura: (you have to be on the Police team)
+		Master Switch - enables arrest aura
+		Range - range of arrest aura
+		Automatic Equip Handcuffs - equips handcuffs automatically
+		Automatic Eject Player - ejects player out of vehicle automatically
+		Talk on Arrest - advertises the script discord server when arresting somebody
 Vehicle:
 	- Car Modifications:
-		Speed
-		Brakes
-		Turn Speed
-		Height
+		Master Switch - enables car modifications
+		Speed - car speed
+		Brakes - car brakes
+		Turn Speed - car turnspeed
+		Height - car height
 	- Heli Modifications:
-		Speed
-		Infinite Heli Height
+		Master Switch - enables heli speed
+		Speed - heli speed
+		Infinite Heli Height - removes helicopter maximum height
+		Infinite Drone Height - removes drone maximum height
 	- Misc:
-		Infinite Nitro
-		Anti Tirepop
-		Allow Equip in Vehicle
-		Hide Name In Vehicle
-		Show Hotbar in Vehicle
+		Infinite Nitro - infinite nitro for cars
+		Anti Tirepop - removes tirepop from bullets/roadspikes when driving a car
+		Destroy All Destructibles - destroys all destructibles on the map (you must be in a vehicle)
+		Allow Equip in Vehicle - lets you to equip items in a vehicle
+		Hide Name In Vehicle - removes your name for other players when in a vehicle
+		Show Hotbar in Vehicle - lets you view your hotbar when in a vehicle
 Misc:
 	- Misc:
-		Always Keycard
-		Open All Doors
-		No Equip Cooldown
-		No Circle Delay
-		Never Unload World
-		Open Security Cameras
-		Erupt Volcano
-		Remove Clothing
-		Give Police Clothing
+		Always Keycard - lets you open doors that require a keycard when not having one
+		Open All Doors - opens all doors on the map (not recommended when having high ping)
+		No Equip Cooldown - removes equipping cooldown when switching too many times
+		No Circle Delay - removes "E" circle delay
+		Colorful Bullets - random color bullets
+		Infinite Jetpack Fuel - gives you infinite jetpack fuel
+		Spam Crew Invites - spams players on your team with crew invites (you must have at least 7500 cash)
+		Never Unload World - never unloads the world
+		Open Security Cameras - opens security cameras gui
+		Erupt Volcano - erupts volcano
+		Remove Clothing - resets clothing to normal
+		Give Police Clothing - gives you police clothing
 	- Gun Store:
-		Open Gunstore UI
-		Equip Owned Guns
-		Spam Drop Items
-	- Pickpocket Aura
-	- Dropped Cash Aura
+		Open Gunstore UI - opens gunstore gui
+		Equip Owned Guns - equips all owned guns automatically
+		Spam Drop Items - spams drops all owned guns
+	- Pickpocket Aura:
+		Master Switch - enables pickpocket aura
+		Range - range of pickpocket aura
+	- Dropped Cash Aura:
+		Master Switch - enables dropped cash aura
+		range - range of dropped cash aura
 	- Disablers:
-		Disable Lasers
-		Disable Cameras
-		Disable Military Turrets
-		Disable Smoke Grenade Effect
+		Disable Lasers - disables lasers damage
+		Disable Cameras - disables cameras damage
+		Disable Military Turrets - disables military turrets firing
+		Disable Anti Flight Zones - disables anti flight zones when using a jetpack
+		Disable Smoke Grenade Effect - disables smoke grenade effect
 Markers:
+	- Marker:
+		Master Switch - enables Markers section ⚠️ (you must enable this for any of the markers to work) ⚠️
 	- Teams:
-		Allow Criminal Marker
-		Allow Prisoner Marker
-		Allow Police Marker
+		Allow Criminal Marker - allows markers to spawn on players that are on the criminal team
+		Allow Prisoner Marker - allows markers to spawn on players that are on the prisoner team
+		Allow Police Marker - allows markers to spawn on players that are on the police team
 	- Objects:
-		Allow Airdrop Marker
+		Allow Airdrop Marker - allows markers to spawn on airdrops
 	- Settings:
-		No Robbery Marker Delay
+		No Robbery Marker Delay - removes delay on robbery markers that are open
 Robbery:
 	- Bank:
-		Automatic Touch Vault
+		Automatic Touch Vault - automatically touches bank vault
 	- Museum:
-		Automatic Fill Bag
-		Break Museum Puzzle
+		Automatic Fill Bag - automatically fills bag ⚠️ (you must be in the museum and near a item) ⚠️
+		Break Museum Puzzle - breaks the museum puzzle making it impossible to make for other players
 	- Casino:
-		Automatic Collect Loot
-		Break Elevator
-		Hack Nearby Computers
-		Reveal Keycode
+		Automatic Collect Loot - automatically collects loot in casino
+		Automatic Open Door - automatically opens the keycode door when casino is open
+		Break Elevator - elevator will stay at "the vault" floor
+		Hack Nearby Computers - hacks nearby computers
+		Reveal Keycode - sends you a notification with the keycode
 	- Airdrop:
-		Break NPCs
+		Break NPCs - npcs will not target you anymore (you may still get shot at when npcs are targeting others)
+	- Cargo Plane:
+		Automatic Inspect Crate - automatically inspects all crates in the cargo plane
+	- Trains:
+		Automatic Fill Bag - automatically fills the bag when a passenger train is on map
+		Automatic Breach Vault - automatically opens the train door and breaches the vault
 	- Powerplant:
-		Automatic Resolve Puzzle
-		Disable Piston Damage
-		Disable Powerwire Damage
+		Automatic Resolve Puzzle - automatically resolves the powerplant puzzle
+		Disable Piston Damage - disables pistons damage
+		Disable Powerwire Damage - disables powerwire damage
 	- Tomb:
-		Disable Darts
-		Disable Wood Damage
-		Disable Spike Damage
-		Disable Lava Damage
+		Disable Darts - disables darts from firing
+		Disable Wood Damage - disables wood or "duck" damage
+		Disable Spike Damage - disables spikes damage
+		Disable Lava Damage - disables lava damage
 	- Cargoship:
-		Disable Turrets
+		Disable Turrets - disables cargoship turrets from firing
 Info:
-	- Credits
-	- Version
-	- Set discord link to clipboard
-	- Force join discord
-	- Hide UI Username
-	- UI Toggle Keybind
-
-more features soonTM
-- alex9#0001
+	- Credits - alex9#0001
+	- Version - ice tray version
+	- Set discord link to clipboard - sets discord link to clipboard
+	- Force join discord - force joins the discord
+	- Hide UI Username - hides your username from the UI
+	- UI Toggle Keybind - keybind for toggling UI
