@@ -21,8 +21,9 @@ Player:
 		Infinite Duck - lets you to spam crawling
 		Infinite Punch - lets you to punch faster
 		Always Jump - lets you jump while holding spacebar
-		Allow Equip on Duck - lets you equip items while crawling
-		Allow Equip with Items - lets you unequip items that are locked
+		Allow Equip On Duck - lets you equip items while crawling
+		Allow Equip While Flying - lets you equip items while flying a jetpack
+		Allow Equip With Items - lets you unequip items that are locked
 Combat:
 	- Gun Mods:
 		Automatic Fire - makes weapons automatic
