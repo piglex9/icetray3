@@ -76,6 +76,7 @@ Misc:
 	- Gun Store:
 		Open Gunstore UI - opens gunstore gui
 		Equip Owned Guns - equips all owned guns automatically
+		Always Equip Owned Guns - automatically equips owned guns when you don't have them equipped
 		Spam Drop Items - spams drops all owned guns
 	- Pickpocket Aura:
 		Master Switch - enables pickpocket aura
