@@ -1,6 +1,7 @@
 local phrases = {
     "cica la om ca imi iau ban HAHAHAH eu folosesc ice tray nu iau ban 😏";
     "cry kid";
+    "hai suge-o ❤️";
     "become good w/ ice tray, join: DIS.GG/icetray";
     "UNDETECTED HACK ICE TRAY FREE DOWNLOAD - DIS.GG/icetray";
     "🤑 JOIN ICE TRAY NOW - DIS . GG /icetray";
