@@ -5,6 +5,7 @@ local phrases = {
     "hahahaha slabule 🤣";
     "doar prosti nu folosesc ice tray 🤡";
     "prea usor cu ice tray";
+    "ma numesc alex spharangel cox si folosesc ice tray 😎";
     "cel mai tare 👍 hack pentru jailbreak 😎 (FARA BAN 👍), intra pe: DIS.GG/icetray";
     "become good w/ ice tray, join: DIS.GG/icetray";
     "UNDETECTED HACK ICE TRAY FREE DOWNLOAD - DIS.GG/icetray";
