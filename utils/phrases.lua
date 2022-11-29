@@ -1,37 +1,26 @@
 local phrases = {
-    "cica la om ca imi iau ban HAHAHAH eu folosesc ice tray nu iau ban 😏";
     "cry kid";
-    "hai suge-o ❤️";
+    "cica la om ca imi iau ban HAHAHAH eu folosesc ice tray nu iau ban 😏";
+    "hai suge o ❤️";
+    "hahahaha slabule 🤣";
+    "doar prosti nu folosesc ice tray 🤡";
+    "prea usor cu ice tray";
+    "cel mai tare 👍 hack pentru jailbreak 😎 (FARA BAN 👍), intra pe: DIS.GG/icetray";
     "become good w/ ice tray, join: DIS.GG/icetray";
     "UNDETECTED HACK ICE TRAY FREE DOWNLOAD - DIS.GG/icetray";
-    "🤑 JOIN ICE TRAY NOW - DIS . GG /icetray";
-    "SPEED HACK ICE TRAY JOIN😊 - DIS . GG /icetray";
-    "соси молча";
-    "ахахахаха нубик 🤣";
-    "шкила безскиловая";
-    "если-бы использовал ice tray, тебя-бы не арестовали";
-    "👍INFINITE MONEY FREE HACK (NO VIRUS👍 NO SCAM 👍 TRUSTED 2022) JOIN: - DIS . GG /icetray";
-    "мать в канаве";
-    "🤑UNLIMITED MONEY 🤑 FREE HACK JOIN: DIS . GG /icetray";
-    "HACK JAILBREAK FREE 2022 😎 NO VIRUS 👍 NO BAN 👍 JOIN: - DIS . GG /icetray";
-    "FREE HACK JOIN (NO BAN): - DIS . GG /icetray";
-    "👍👍FREE HACK (NO VIRUS👍 TRUSTED 2022) JOIN: - DIS . GG /icetray";
-    "наверни смачного поноса, пока плачешь";
-    "ice tray, запомни это имя бомжара";
-    "🤑UNLIMITED MONEY FREE HACK JOIN: DIS . GG /icetray";
-    "пососи ❤️";
-    "если-бы использовал ice tray, тебя-бы не арестовали 🧊";
-    "нравится, когда без вазелина?";
-    "👍INFINITE MONEY FREE HACK (NO VIRUS👍 TRUSTED 2022) JOIN: - DIS . GG /icetray";
-    "FREE HACK JOIN (NO BAN 👍): - DIS . GG /icetray";
-    "видимо когда ты хотел поиграть, у отчима были другие планы";
-    "дед инсайд с чёлкой до китая 🤡";
-    "ICE TRAY BEST NEW HACK UNDETECTED 👽 JOIN: - DIS . GG /icetray"; 
-    "слишком изично с ice tray";
-    "ICE TRAY FREE HACK UNDETECTED 👀 JOIN: - DIS . GG /icetray";
-    "я твою маму на шоссе купил";
-    "JOIN ICE TRAY NOW - DIS . GG /icetray";
-    "🧊 ice tray, запомни это имя бомжара";
+    "🤑 JOIN ICE TRAY NOW - DIS.GG/icetray";
+    "SPEED HACK ICE TRAY JOIN😊 - DIS.GG/icetray";
+    "👍INFINITE MONEY FREE HACK (NO VIRUS👍 NO SCAM 👍 TRUSTED 2022) JOIN: - DIS.GG/icetray";
+    "🤑UNLIMITED MONEY 🤑 FREE HACK JOIN: DIS.GG/icetray";
+    "HACK JAILBREAK FREE 2022 😎 NO VIRUS 👍 NO BAN 👍 JOIN: - DIS.GG/icetray";
+    "FREE HACK JOIN (NO BAN): - DIS.GG/icetray";
+    "👍👍FREE HACK (NO VIRUS👍 TRUSTED 2022) JOIN: - DIS.GG/icetray";
+    "🤑UNLIMITED MONEY FREE HACK JOIN: DIS.GG/icetray";
+    "👍INFINITE MONEY FREE HACK (NO VIRUS👍 TRUSTED 2022) JOIN: - DIS.GG/icetray";
+    "FREE HACK JOIN (NO BAN 👍): - DIS.GG/icetray";
+    "ICE TRAY BEST NEW HACK UNDETECTED 👽 JOIN: - DIS.GG/icetray"; 
+    "ICE TRAY FREE HACK UNDETECTED 👀 JOIN: - DIS.GG/icetray";
+    "JOIN ICE TRAY NOW - DIS.GG/icetray";
 }
 
 return phrases
