@@ -1,5 +1,5 @@
 local phrases = {
-    "promovam propaganda anti-evrei si antilgbtq pe DIS.GG/icetray";
+    "promovam propaganda anti evrei pe DIS.GG/icetray";
     "cica la om ca imi iau ban HAHAHAH eu folosesc ice tray nu iau ban 😏";
     "hai suge o ❤️";
     "hahahaha slabule 🤣";
