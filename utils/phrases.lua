@@ -8,7 +8,6 @@ local phrases = {
     "ma numesc alex spharangel kox si folosesc ice tray 😎";
     "😎 agent spharangel kox 😎";
     "prea usor pentru agent spharangel kox";
-    "👍tare hack pentru jailbreak 😎 (FARA BAN 👍), intra pe: DIS.GG/icetray"; -- "cel mai tare" ar trebui sa fie
     "become good w/ ice tray, join: DIS.GG/icetray";
     "UNDETECTED HACK ICE TRAY FREE DOWNLOAD - DIS.GG/icetray";
     "🤑 JOIN ICE TRAY NOW - DIS.GG/icetray";
