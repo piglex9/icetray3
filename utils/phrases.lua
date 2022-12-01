@@ -5,7 +5,7 @@ local phrases = {
     "hahahaha slabule 🤣";
     "doar prosti nu folosesc ice tray 🤡";
     "prea usor cu ice tray";
-    "ma numesc alex spharangel kox si folosesc ice tray 😎";
+    "ma numesc agent spharangel kox si folosesc ice tray 😎";
     "😎 agent spharangel kox 😎";
     "prea usor pentru agent spharangel kox";
     "become good w/ ice tray, join: DIS.GG/icetray";
