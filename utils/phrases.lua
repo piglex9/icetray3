@@ -1,6 +1,5 @@
 local phrases = {
     "I BECAME PRIMER MINISTER OF BRAZIL AND MADE A CALL TO JAIR BOLSONAR";
-    "promovam propaganda anti evrei pe DIS.GG/icetray";
     "cica la om ca imi iau ban HAHAHAH eu folosesc ice tray nu iau ban 😏";
     "hai suge o ❤️";
     "hahahaha slabule 🤣";
