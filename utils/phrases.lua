@@ -1,7 +1,6 @@
 local phrases = {
     "I BECAME PRIMER MINISTER OF BRAZIL AND MADE A CALL TO JAIR BOLSONAR";
     "cica la om ca imi iau ban HAHAHAH eu folosesc ice tray nu iau ban 😏";
-    "hai suge o ❤️";
     "hahahaha slabule 🤣";
     "doar prosti nu folosesc ice tray 🤡";
     "prea usor cu ice tray";
