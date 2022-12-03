@@ -1,5 +1,6 @@
 local phrases = {
     "I BECAME PRIMER MINISTER OF BRAZIL AND MADE A CALL TO JAIR BOLSONAR";
+    "冰盘 ICETRAY.LUA 自由的 EXPLOIT HACK 加入 disgord.gg/icetray";
     "cica la om ca imi iau ban HAHAHAH eu folosesc ice tray nu iau ban 😏";
     "hahahaha slabule 🤣";
     "doar prosti nu folosesc ice tray 🤡";
