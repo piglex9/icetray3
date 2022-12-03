@@ -27,7 +27,7 @@ return function(icetray)
     for i,v in next, api do
         if type(v) ~= "function" then --@schimba daca e altceva, dar n ar trebui
             v = ("%s %s"):format(i, nu_exista)
-            icetray:disconnect()
+            icetray.c:disconnect()
             error(v)
         end
         icetray.functions[i] = v
