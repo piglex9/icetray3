@@ -1,4 +1,5 @@
 local phrases = {
+    "UKRAINE BLOOD ON MY “Z“ PATCH";
     "I BECAME PRIME MINISTER OF BRAZIL AND MADE A CALL TO JAIR BOLSONAR";
     "冰盘 ICETRAY.LUA 自由的 EXPLOIT HACK 加入 disgord.gg/icetray";
     "cica la om ca imi iau ban HAHAHAH eu folosesc ice tray nu iau ban 😏";
