@@ -13,6 +13,7 @@
 - getgenv
 - getrenv
 - getconnections
+- getgc
 
 # DEBUG LIB
 - debug.getregistry
