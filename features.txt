@@ -1,4 +1,4 @@
-icetray version 3.7 features as of 20.11.2022 and what they do:
+icetray version 3.9 features as of 05.12.2022 and what they do:
 
 
 [tab]:
@@ -17,10 +17,13 @@ Player:
 		Anti Skydive - disables skydive (do NOT enable while skydiving)
 		Anti Falldamage - disables falldamage
 		Anti Taze - disables taze ragdoll
+		Jesus - allows you to walk/drive on water
+		Automatic Respawn On Tazed - automatically changes you to team prisoner when tazed
 	- Misc:
 		Infinite Duck - lets you to spam crawling
 		Infinite Punch - lets you to punch faster
 		Always Jump - lets you jump while holding spacebar
+		Always Sprint - allows you to always sprint without pressing SHIFT
 		Allow Equip On Duck - lets you equip items while crawling
 		Allow Equip While Flying - lets you equip items while flying a jetpack
 		Allow Equip With Items - lets you unequip items that are locked
@@ -28,19 +31,24 @@ Combat:
 	- Gun Mods:
 		Automatic Fire - makes weapons automatic
 		No Recoil - removes weapons recoil
+		Anti Knockback - removes knockback from flintlock weapon
 	- Silent Aim:
 		Master Switch - enables silent aim
 		FOV - field of view
 		FOV Circle - circle
 		Movement Prediction - attempts to predict next movement of your target
+		Allow Target NPCs - allows aimbot to target npcs
 		Penetrate Walls - lets you shoot through walls
 		Automatic Shoot - automatically shoots with silent aim (penetrate walls needs to be enabled for now)
-	- Arrest Aura: ⚠️ (you have to be on the Police team) ⚠️
+	- Arrest Aura:
 		Master Switch - enables arrest aura
 		Range - range of arrest aura
 		Automatic Equip Handcuffs - equips handcuffs automatically
 		Automatic Eject Player - ejects player out of vehicle automatically
+		Allow Tase Target - allows arrest aura to tase targets before arresting
+		Allow Through Walls - allows arrest aura to arrest through walls
 		Talk on Arrest - advertises the script discord server when arresting somebody
+	   *⚠️ You have to be on the Police team
 Vehicle:
 	- Car Modifications:
 		Master Switch - enables car modifications
@@ -49,14 +57,15 @@ Vehicle:
 		Turn Speed - car turnspeed
 		Height - car height
 	- Heli Modifications:
-		Master Switch - enables heli speed
+		Master Switch - enables heli modifications
 		Speed - heli speed
 		Infinite Heli Height - removes helicopter maximum height
 		Infinite Drone Height - removes drone maximum height
 	- Misc:
 		Infinite Nitro - infinite nitro for cars
-		Anti Tirepop - removes tirepop from bullets/roadspikes when driving a car
-		Destroy All Destructibles - destroys all destructibles on the map (you must be in a vehicle)
+		Anti Break Vehicle - doesnt break vehicle if you hit roadspikes or someone shoots your vehicle
+		Automatic Flip Vehicle - automatically flips your vehicle
+		Destroy All Destructibles - destroys all destructibles on the map
 		Allow Equip in Vehicle - lets you to equip items in a vehicle
 		Hide Name In Vehicle - removes your name for other players when in a vehicle
 		Show Hotbar in Vehicle - lets you view your hotbar when in a vehicle
@@ -64,11 +73,16 @@ Misc:
 	- Misc:
 		Always Keycard - lets you open doors that require a keycard when not having one
 		Open All Doors - opens all doors on the map (not recommended when having high ping)
+		Break Nearby Vehicles - breaks nearby vehicles
+			*⚠️ Requires a shootable item in Inventory
+			*⚠️ This will break your camera if you're a passenger or if you have a passenger in your vehicle
+		Automatic Hijack Vehicles - automatically hijacks vehicles
 		No Equip Cooldown - removes equipping cooldown when switching too many times
 		No Circle Delay - removes "E" circle delay
 		Colorful Bullets - random color bullets
 		Infinite Jetpack Fuel - gives you infinite jetpack fuel
-		Spam Crew Invites - spams players on your team with crew invites (you must have at least 7500 cash)
+		Spam Crew Invites - spams players on your team with crew invites
+			*⚠️ Requires you to have at least 7,500$ for a home
 		Never Unload World - never unloads the world
 		Open Security Cameras - opens security cameras gui
 		Erupt Volcano - erupts volcano
@@ -79,21 +93,37 @@ Misc:
 		Equip Owned Guns - equips all owned guns automatically
 		Always Equip Owned Guns - automatically equips owned guns when you don't have them equipped
 		Spam Drop Items - spams drops all owned guns
+	- Prison:
+		Automatic Punch Electric Gate - automatically punches and opens electric gate
+		Automatic Open Prison Gate - automatically opens prison gates
+		Automatic Explode Wall - automatically explodes wall
+		Automatic Lift Gate - automatically lifts gates
+		Automatic Open Cells - automatically opens cells
 	- Pickpocket Aura:
 		Master Switch - enables pickpocket aura
 		Range - range of pickpocket aura
+	- Eject Aura:
+		Master Switch - enables eject aura
+		Range - range of eject aura
+	- Breakout Aura:
+		Master Switch - enables breakout aura
+		Range - range of breakout aura
+	   *⚠️ You have to be a Criminal or Prisoner
+	   *⚠️ Only works every 20 seconds
 	- Dropped Cash Aura:
 		Master Switch - enables dropped cash aura
-		range - range of dropped cash aura
+		Range - range of dropped cash aura
 	- Disablers:
 		Disable Lasers - disables lasers damage
 		Disable Cameras - disables cameras damage
 		Disable Military Turrets - disables military turrets firing
+		Disable House Turrets - disables turrets placed in a house
 		Disable Anti Flight Zones - disables anti flight zones when using a jetpack
 		Disable Smoke Grenade Effect - disables smoke grenade effect
 Markers:
 	- Marker:
-		Master Switch - enables Markers section ⚠️ (you must enable this for any of the markers to spawn) ⚠️
+		Master Switch - enables Markers section 
+	   *⚠️ You have to enable this for any of the markers to spawn
 	- Teams:
 		Allow Criminal Marker - allows markers to spawn on players that are on the criminal team
 		Allow Prisoner Marker - allows markers to spawn on players that are on the prisoner team
@@ -102,11 +132,30 @@ Markers:
 		Allow Airdrop Marker - allows markers to spawn on airdrops
 	- Settings:
 		No Robbery Marker Delay - removes delay on robbery markers that are open
+Visuals:
+	- Night Mode:
+		Master Switch - enables night mode
+	- Bloom:
+		Master Switch - enables bloom modifier
+		Intensity - bloom intensity
+		Size - bloom size
+	   *⚠️ Disable Bloom has to be off
+	- Fog:
+		Master Switch - enables custom fog
+		Density - fog density
+	   *⚠️ Disable Fog has to be off
+	- Disablers:
+		Disable Rain - disables rain on map
+		Disable Color Correction - disables color correction
+		Disable Fog - disables fog
+		Disable Bloom - disables bloom
 Robbery:
 	- Bank:
 		Automatic Touch Vault - automatically touches bank vault
+		Automatic Place Dynamite - automatically places dynamite
 	- Museum:
-		Automatic Fill Bag - automatically fills bag ⚠️ (you must be in the museum and near a item) ⚠️
+		Automatic Fill Bag - automatically fills bag
+		     *⚠️ You have to be in the museum and near a collectable item
 		Break Museum Puzzle - breaks the museum puzzle making it impossible to make for other players
 	- Casino:
 		Automatic Collect Loot - automatically collects loot in casino
@@ -115,11 +164,15 @@ Robbery:
 		Hack Nearby Computers - hacks nearby computers
 		Reveal Keycode - sends you a notification with the keycode
 	- Airdrop:
-		Break NPCs - npcs will not target you anymore (you may still get shot at when npcs are targeting others)
+		Break NPCs - npcs will not target you anymore
+		     *⚠️ You may still get shot at when NPCs are targeting others
 	- Cargo Plane:
 		Automatic Inspect Crate - automatically inspects all crates in the cargo plane
 	- Trains:
-		Automatic Fill Bag - automatically fills the bag when a passenger train is on map
+		Automatic Fill Bag - automatically fills the bag with collectables when near a passenger train
+		     *⚠️ You have to be in Criminal team
+		Automatic Delivery - automatically delivers collectables when near a passenger train
+		     *⚠️ You have to be in Police team
 		Automatic Breach Vault - automatically opens the train door and breaches the vault
 	- Powerplant:
 		Automatic Resolve Puzzle - automatically resolves the powerplant puzzle
@@ -137,5 +190,8 @@ Info:
 	- Version - ice tray version
 	- Set discord link to clipboard - sets discord link to clipboard
 	- Force join discord - force joins the discord
+	- Teleport To Trade World - instantly teleports you to the trade world
+		*⚠️ ice tray will no longer be available in the trade world
+	- Join Random Server - joins a another jb server
 	- Hide UI Username - hides your username from the UI
 	- UI Toggle Keybind - keybind for toggling UI
