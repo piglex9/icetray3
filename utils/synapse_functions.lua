@@ -1,4 +1,4 @@
-return function(icetray)
+return function(tools)
     local api = {
             getreg = debug.getregistry or getreg;
             getupvalues = debug.getupvalues;
@@ -27,9 +27,9 @@ return function(icetray)
     for i,v in next, api do
         if type(v) ~= "function" then --@schimba daca e altceva, dar n ar trebui
             v = ("%s %s"):format(i, nu_exista)
-            icetray.c:disconnect()
+            tools.connections.c:disconnect()
             error(v)
         end
-        icetray.functions[i] = v
+        tools.utils.synapse_functions[i] = v
     end
 end
