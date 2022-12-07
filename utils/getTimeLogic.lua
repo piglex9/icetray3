@@ -1,4 +1,4 @@
-return function(time, send_developer_console)
+return function(tools, time)
     if time >= 5 then
         return "Morgen"
     elseif time >= 13 then
@@ -8,6 +8,6 @@ return function(time, send_developer_console)
     elseif time < 5 then
         return "Nacht"
     end
-    send_developer_console("Couldn't get time")
+    tools.log("❌ No Time Detected")
     return false
 end
