@@ -15,6 +15,7 @@
 - getconnections
 - getgc
 - setscriptable
+- isnetworkowner
 
 # DEBUG LIB
 - debug.getregistry
