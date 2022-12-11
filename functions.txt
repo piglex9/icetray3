@@ -14,6 +14,7 @@
 - getrenv
 - getconnections
 - getgc
+- setscriptable
 
 # DEBUG LIB
 - debug.getregistry
