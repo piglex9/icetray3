@@ -7,6 +7,7 @@ function colors.new(name, color)
         error(("%s already exists"):format(name))   
     end 
     colors[name] = color
+    return true
 end
 
 function colors.remove(name, color)
@@ -16,6 +17,7 @@ function colors.remove(name, color)
         error(("%s does not exist"):format(name))
     end
     colors[name] = nil
+    return true
 end
 
 return colors
