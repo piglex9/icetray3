@@ -7,6 +7,7 @@ local phrases = {
     "ma numesc agent spharangel kox si folosesc ice tray 😎";
     "😎 agent spharangel kox 😎";
     "prea usor pentru agent spharangel kox";
+    "ICETRAY 55 - 0 ANTI HACK";
     "become good with ice tray, join: disgord.gg/icetray";
     "UNDETECTED HACK ICE TRAY FREE DOWNLOAD - disgord.gg/icetray";
     "🤑 JOIN ICE TRAY NOW - disgord.gg/icetray";
