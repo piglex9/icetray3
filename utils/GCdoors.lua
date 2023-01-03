@@ -30,4 +30,4 @@ for i,v in next, doors do
 end
 --]]
 
-return doors
+return doors, openFunction
