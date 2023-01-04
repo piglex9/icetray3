@@ -17,7 +17,7 @@ local phrases = {
     "FREE HACK JOIN (NO BAN): disgord.gg/icetray";
     "👍👍FREE HACK (NO VIRUS👍 TRUSTED 2022) JOIN: disgord.gg/icetray";
     "🤑UNLIMITED MONEY FREE HACK JOIN: disgord.gg/icetray";
-    "👍INFINITE MONEY FREE HACK (NO VIRUS👍 TRUSTED 2022) JOIN: - disgord.gg/icetrayy";
+    "👍INFINITE MONEY FREE HACK (NO VIRUS👍 TRUSTED 2022) JOIN: - disgord.gg/icetray";
     "FREE HACK JOIN (NO BAN 👍): - disgord.gg/icetray";
     "ICE TRAY BEST NEW HACK UNDETECTED 👽 JOIN: - disgord.gg/icetray"; 
     "ICE TRAY FREE HACK UNDETECTED 👀 JOIN: - disgord.gg/icetray";
