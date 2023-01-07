@@ -12,11 +12,11 @@ local phrases = {
     "UNDETECTED HACK ICE TRAY FREE DOWNLOAD - disgord.gg/icetray";
     "🤑 JOIN ICE TRAY NOW - disgord.gg/icetray";
     "👍INFINITE MONEY FREE HACK (NO VIRUS👍 NO SCAM 👍 TRUSTED 2022) JOIN: - disgord.gg/icetray";
-    "🤑UNLIMITED MONEY 🤑 FREE HACK JOIN: - dis.gg/icetray";
+    "🤑UNLIMITED MONEY 🤑 FREE HACK JOIN: - disgord.gg/icetray";
     "HACK JAILBREAK FREE 2022 😎 NO VIRUS 👍 NO BAN 👍 JOIN: disgord.gg/icetray";
     "FREE HACK JOIN (NO BAN): disgord.gg/icetray";
     "👍👍FREE HACK (NO VIRUS👍 TRUSTED 2022) JOIN: disgord.gg/icetray";
-    "🤑UNLIMITED MONEY FREE HACK JOIN: disgord.gg/icetray";
+    "🤑UNLIMITED MONEY🤑🤑 FREE SCRIPT JOIN SERVER - disgord.gg/icetray";
     "👍INFINITE MONEY FREE HACK (NO VIRUS👍 TRUSTED 2022) JOIN: - disgord.gg/icetray";
     "FREE HACK JOIN (NO BAN 👍): - disgord.gg/icetray";
     "ICE TRAY BEST NEW HACK UNDETECTED 👽 JOIN: - disgord.gg/icetray"; 
