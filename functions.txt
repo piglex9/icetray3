@@ -16,6 +16,7 @@
 - getgc
 - setscriptable
 - isnetworkowner
+- sethiddenproperty
 
 # DEBUG LIB
 - debug.getregistry
