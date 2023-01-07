@@ -1,7 +1,7 @@
 return function(build)
     if build == "synx" then
         return "✅"
-    elseif build == "oxygen-api" then
+    elseif build == "sw" then
         return "✅"
     else
         return "❌"
