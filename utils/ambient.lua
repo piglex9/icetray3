@@ -1,6 +1,6 @@
 local ambient = {}
 
-for i,v in next, getgc(true) do -- no, getgc is not used in ice tray
+for i,v in next, getgc(true) do
     if type(v) == "table" and rawget(v, "em") and not rawget(v, "GetVehiclePacket") then
         for i2,v2 in next, v.em do
             if type(v2) == "function" and islclosure(v2) then
