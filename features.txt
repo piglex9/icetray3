@@ -1,4 +1,4 @@
-icetray version 3.9 features as of 05.12.2022 and what they do:
+icetray version 3.11.3 features as of 10.01.2022 and what they do:
 
 
 [tab]:
@@ -12,18 +12,26 @@ Player:
 		Master Switch - enables them
 		Value - value of speed/jumppower
 		Disable If Handcuffed - disables them if handcuffed
+	   *⚠️ These features are detected. To use them you have to press "Yes" on the confirmation GUI
 	- Utils:
 		Anti Ragdoll - disables ragdoll
 		Anti Skydive - disables skydive (do NOT enable while skydiving)
+		Anti Parachute - disables parachute
 		Anti Falldamage - disables falldamage
 		Anti Taze - disables taze ragdoll
+		Parachute On Jump - parachutes on jump
+		Parachute Boost - modifies parachutes to be able to "fly"
 		Jesus - allows you to walk/drive on water
-		Automatic Respawn On Tazed - automatically changes you to team prisoner when tazed
+		Choose Respawn - kills character to receive "Choose Spawn" GUI
 	- Misc:
+		FOV - field of view
 		Infinite Duck - lets you to spam crawling
 		Infinite Punch - lets you to punch faster
 		Always Jump - lets you jump while holding spacebar
 		Always Sprint - allows you to always sprint without pressing SHIFT
+		Always Punch - spams punch
+		Always Duck - spams duck
+		Automatic Respawn On Stunned - automatically changes you to team prisoner when tazed/c4 explodes near you
 		Allow Equip On Duck - lets you equip items while crawling
 		Allow Equip While Flying - lets you equip items while flying a jetpack
 		Allow Equip With Items - lets you unequip items that are locked
@@ -32,13 +40,24 @@ Combat:
 		Automatic Fire - makes weapons automatic
 		No Recoil - removes weapons recoil
 		Anti Knockback - removes knockback from flintlock weapon
+		Instant Reload - attempts to instantly reload your weapon by reequipping
+	- Gun Store:
+		Open Gunstore UI - opens gunstore gui
+		Equip Owned Guns - equips all owned guns automatically
+		Always Equip Owned Guns - automatically equips owned guns when you don't have them equipped
+		Spam Drop Items - spams drops all owned guns
 	- Silent Aim:
 		Master Switch - enables silent aim
 		FOV - field of view
 		FOV Circle - circle
 		Movement Prediction - attempts to predict next movement of your target
+		Prediction Value - value of prediction
+			* You can modify this until you hit flying/fast moving players
+		Allow Target Prisoner - allows aimbot to target prisoners
 		Allow Target NPCs - allows aimbot to target npcs
-		Penetrate Walls - lets you shoot through walls
+		Allow Target Boss - allows aimbot to target Boss from Mansion Robbery
+		Head Only - allows aimbot to shoot Boss only in the head to deal the most amount of damage
+		Penetrate Walls - allows aimbot to shoot through walls
 		Automatic Shoot - automatically shoots with silent aim (penetrate walls needs to be enabled for now)
 	- Arrest Aura:
 		Master Switch - enables arrest aura
@@ -65,6 +84,10 @@ Vehicle:
 		Infinite Nitro - infinite nitro for cars
 		Anti Break Vehicle - doesnt break vehicle if you hit roadspikes or someone shoots your vehicle
 		Automatic Flip Vehicle - automatically flips your vehicle
+		Automatic Hijack Vehicles - automatically hijacks all vehicles on the map
+		Spam Headlights - spams headlights
+		Spam Jeep Roof - spams roof from Jeep car
+		Always Drift - hack presses SHIFT for you)
 		Destroy All Destructibles - destroys all destructibles on the map
 		Allow Equip in Vehicle - lets you to equip items in a vehicle
 		Hide Name In Vehicle - removes your name for other players when in a vehicle
@@ -73,10 +96,6 @@ Misc:
 	- Misc:
 		Always Keycard - lets you open doors that require a keycard when not having one
 		Open All Doors - opens all doors on the map (not recommended when having high ping)
-		Break Nearby Vehicles - breaks nearby vehicles
-			*⚠️ Requires a shootable item in Inventory
-			*⚠️ This will break your camera if you're a passenger or if you have a passenger in your vehicle
-		Automatic Hijack Vehicles - automatically hijacks vehicles
 		No Equip Cooldown - removes equipping cooldown when switching too many times
 		No Circle Delay - removes "E" circle delay
 		Colorful Bullets - random color bullets
@@ -84,21 +103,26 @@ Misc:
 		Spam Crew Invites - spams players on your team with crew invites
 			*⚠️ Requires you to have at least 7,500$ for a home
 		Never Unload World - never unloads the world
+		Open Secretbases - opens all the doors from secretbases
+		Click Lightning - spams lightnings on click (client)
+		Teleport Football To Goal - teleports big football to goal to give everyone on the server a "DinoBone" spoiler
+			*⚠️ You need to be near the ball
+			* https://jailbreak.fandom.com/wiki/Soccer_Ball_Challenge
 		Open Security Cameras - opens security cameras gui
-		Erupt Volcano - erupts volcano
 		Remove Clothing - resets clothing to normal
 		Give Police Clothing - gives you police clothing
-	- Gun Store:
-		Open Gunstore UI - opens gunstore gui
-		Equip Owned Guns - equips all owned guns automatically
-		Always Equip Owned Guns - automatically equips owned guns when you don't have them equipped
-		Spam Drop Items - spams drops all owned guns
 	- Prison:
 		Automatic Punch Electric Gate - automatically punches and opens electric gate
 		Automatic Open Prison Gate - automatically opens prison gates
 		Automatic Explode Wall - automatically explodes wall
 		Automatic Lift Gate - automatically lifts gates
 		Automatic Open Cells - automatically opens cells
+	- Break Nearby Vehicles:
+		*⚠️ Requires a shootable item in Inventory
+		*⚠️ This will break your camera if you're a passenger or if you have a passenger in your vehicle
+		Only On Weapon Equipped - only breaks nearby vehicles when a weapon is equipped
+		Instant Break - attempts to instantly break vehicles
+		Target Enemy Team Only - targets only enemy team
 	- Pickpocket Aura:
 		Master Switch - enables pickpocket aura
 		Range - range of pickpocket aura
@@ -113,6 +137,9 @@ Misc:
 	- Dropped Cash Aura:
 		Master Switch - enables dropped cash aura
 		Range - range of dropped cash aura
+	- Play Sounds:
+		Sounds - every sound available in the game
+		Annoy Server - spams "Horn" sound with max volume
 	- Disablers:
 		Disable Lasers - disables lasers damage
 		Disable Cameras - disables cameras damage
@@ -132,59 +159,62 @@ Markers:
 		Allow Airdrop Marker - allows markers to spawn on airdrops
 	- Settings:
 		No Robbery Marker Delay - removes delay on robbery markers that are open
-Visuals:
-	- Night Mode:
-		Master Switch - enables night mode
-	- Bloom:
-		Master Switch - enables bloom modifier
-		Intensity - bloom intensity
-		Size - bloom size
-	   *⚠️ Disable Bloom has to be off
-	- Fog:
-		Master Switch - enables custom fog
-		Density - fog density
-	   *⚠️ Disable Fog has to be off
-	- Disablers:
-		Disable Rain - disables rain on map
-		Disable Color Correction - disables color correction
-		Disable Fog - disables fog
-		Disable Bloom - disables bloom
+		Mark Bounty Criminals - marks all criminals with a bounty yellow
 Robbery:
 	- Bank:
 		Automatic Touch Vault - automatically touches bank vault
 		Automatic Place Dynamite - automatically places dynamite
+	- Jewelry:
+		Automatic Grab Nearby Jewels - automatically grabs nearby jewels
 	- Museum:
+		Automatic Place Dynamite - automatically places dynamite when a another player places it
 		Automatic Fill Bag - automatically fills bag
 		     *⚠️ You have to be in the museum and near a collectable item
 		Break Museum Puzzle - breaks the museum puzzle making it impossible to make for other players
 	- Casino:
+		Automatic Crack Vault - automatically cracks main vault
 		Automatic Collect Loot - automatically collects loot in casino
 		Automatic Open Door - automatically opens the keycode door when casino is open
 		Break Elevator - elevator will stay at "the vault" floor
 		Hack Nearby Computers - hacks nearby computers
 		Reveal Keycode - sends you a notification with the keycode
+		Call Elevator To Floor - calls elevator to any floor
+			*⚠️ Break Elevator needs to be disabled
 	- Airdrop:
 		Break NPCs - npcs will not target you anymore
 		     *⚠️ You may still get shot at when NPCs are targeting others
 	- Cargo Plane:
 		Automatic Inspect Crate - automatically inspects all crates in the cargo plane
+		Automatic Open Door - automatically opens door after inspecting crate
+		Call Cargoplane - calls cargoplane
+		     *⚠️ You have to be in Police team
+	- Mansion:
+		Disable Traps - disables traps
+		Anti Boss Attack - disables boss attacks
+		Anti Boss Ragdoll - disables boss ragdoll
+		Break NPCs - npcs will not target you anymore
+		     *⚠️ You may still get shot at when NPCs are targeting others
 	- Trains:
 		Automatic Fill Bag - automatically fills the bag with collectables when near a passenger train
 		     *⚠️ You have to be in Criminal team
 		Automatic Delivery - automatically delivers collectables when near a passenger train
 		     *⚠️ You have to be in Police team
 		Automatic Breach Vault - automatically opens the train door and breaches the vault
+		Anti Station Stop - attempts to put train on the track where it does not stop at the station
 	- Powerplant:
 		Automatic Resolve Puzzle - automatically resolves the powerplant puzzle
 		Disable Piston Damage - disables pistons damage
 		Disable Powerwire Damage - disables powerwire damage
 	- Tomb:
+		Automatic Resolve Dart Room - automatically resolves dart room
 		Disable Darts - disables darts from firing
 		Disable Wood Damage - disables wood or "duck" damage
 		Disable Spike Damage - disables spikes damage
 		Disable Lava Damage - disables lava damage
 	- Cargoship:
 		Disable Turrets - disables cargoship turrets from firing
+	- Small Stores:
+		- Robbery Status
 Info:
 	- Credits - alex9#0001
 	- Version - ice tray version
@@ -193,5 +223,8 @@ Info:
 	- Teleport To Trade World - instantly teleports you to the trade world
 		*⚠️ ice tray will no longer be available in the trade world
 	- Join Random Server - joins a another jb server
+	- Rejoin - rejoins same server
 	- Hide UI Username - hides your username from the UI
+	- Save UI Status - saves last UI status
+	- Lighting Technology - change ROBLOXs lighting technology
 	- UI Toggle Keybind - keybind for toggling UI
