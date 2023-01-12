@@ -11,7 +11,7 @@ return function(tools)
             newcclosure = newcclosure;
             setclipboard = setclipboard;
             islclosure = islclosure;
-            is_synapse_function = is_synapse_function or is_oxygen_function;
+            is_synapse_function = is_synapse_function or checkclosure;
             firetouchinterest = firetouchinterest;
             fireclickdetector = fireclickdetector;
             getconnections = getconnections;
@@ -27,9 +27,8 @@ return function(tools)
     for i,v in next, api do
         if type(v) ~= "function" then --@schimba daca e altceva, dar n ar trebui
             v = ("%s %s"):format(i, nu_exista)
-            tools.connections.c:disconnect()
             error(v)
         end
-        tools.utils.synapse_functions[i] = v
+        tools.functions[i] = v
     end
 end
