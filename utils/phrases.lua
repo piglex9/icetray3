@@ -21,6 +21,7 @@ local phrases = {
     "FREE HACK JOIN (NO BAN 👍): - disgord.gg/icetray";
     "ICE TRAY BEST NEW HACK UNDETECTED 👽 JOIN: - disgord.gg/icetray"; 
     "ICE TRAY FREE HACK UNDETECTED 👀 JOIN: - disgord.gg/icetray";
+    'print(string.rep("ez", 228))';
 }
 
 return phrases
