@@ -1288,6 +1288,7 @@ while true do
     task.wait()
 end
 
+--[[
 local player = players.LocalPlayer
 local userId = player.UserId
 local thumbType = Enum.ThumbnailType.HeadShot
@@ -1315,5 +1316,6 @@ global.ui.misc.tab = misc
 global.ui.vehicle.tab = vehicle
 global.ui.combat.tab = combat
 global.ui.info.tab = info
+--]]
 
 return icetray
