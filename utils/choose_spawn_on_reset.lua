@@ -1,7 +1,6 @@
 local repl = game:GetService("ReplicatedStorage")
 local startergui = game:GetService("StarterGui")
 
-local is_synapse_function = checkclosure or is_synapse_function
 local setupvalue = debug.setupvalue
 local getconstants = debug.getconstants
 local getupvalues = debug.getupvalues
@@ -12,7 +11,7 @@ if not global then
     local init = getupvalues(require(repl.Game.Falling).Init)
     for i=1, #init do
         local v = init[i]
-        if type(v) == "function" and islclosure(v) and not is_synapse_function(v) then
+        if type(v) == "function" and islclosure(v) then
             local con = getconstants(v)
             if table.find(con, "NoFallDamage") then
                 fn = v            
