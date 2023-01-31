@@ -7,6 +7,8 @@ local phrases = {
     "prea usor cu ice tray";
     "tava de gheata 🥶";
     "bozgor";
+    'UKRAINE BLOOD ON MY "Z" PATCH';
+    "hungary pooron kid from bucket balaton tell me i dont food 😂😂😂";
     "😎 agent spharangel kox 😎";
     "prea usor pentru agent spharangel kox";
     "all dogs say recorded but me BLESSED by ice tray 😈";
