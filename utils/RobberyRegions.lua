@@ -1,5 +1,5 @@
 return {
-    Jewelry = {
+    JewelryBoxes = {
         x = {
             max = 156;
             min = 103;
