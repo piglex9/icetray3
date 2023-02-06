@@ -7,7 +7,6 @@ local phrases = {
     "prea usor cu ice tray";
     "tava de gheata 🥶";
     "bozgor";
-    'UKRAINE BLOOD ON MY "Z" PATCH';
     "😎 agent spharangel kox 😎";
     "prea usor pentru agent spharangel kox";
     "ICE TRAY 55 - 0 ANTI HACK";
