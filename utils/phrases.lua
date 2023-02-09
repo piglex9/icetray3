@@ -22,8 +22,8 @@ local phrases_new = {
                         "1918";
                     };
                     type2 = {
-                        "asta se intampla cand nu folosesti icetray.lua";
-                        "recomandam ziarele anti-bozgori";
+                        "orice bozgor merita omorat";
+                        "si romi..";
                     };
                     type3 = {
                         "all dogs say recorded but me BLESSED by ice tray 😈";
