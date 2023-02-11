@@ -14,4 +14,5 @@ return function(p1, p2)
             return false
         end
     end
+    return false
 end
