@@ -1,4 +1,4 @@
-icetray version 3.11.3 features as of 10.01.2022 and what they do:
+icetray version 3.12 features as of 11.02.2022 and what they do:
 
 
 [tab]:
@@ -20,6 +20,7 @@ Player:
 		Anti Falldamage - disables falldamage
 		Anti Taze - disables taze ragdoll
 		Parachute On Jump - parachutes on jump
+		Delay - delay for parachute on jump (in milliseconds)
 		Parachute Boost - modifies parachutes to be able to "fly"
 		Jesus - allows you to walk/drive on water
 		Choose Respawn - kills character to receive "Choose Spawn" GUI
@@ -41,6 +42,7 @@ Combat:
 		No Recoil - removes weapons recoil
 		Anti Knockback - removes knockback from flintlock weapon
 		Instant Reload - attempts to instantly reload your weapon by reequipping
+		Anti Scope UI - hides scope ui when in scoped
 	- Gun Store:
 		Open Gunstore UI - opens gunstore gui
 		Equip Owned Guns - equips all owned guns automatically
@@ -80,6 +82,8 @@ Vehicle:
 		Speed - heli speed
 		Infinite Heli Height - removes helicopter maximum height
 		Infinite Drone Height - removes drone maximum height
+		Instant Rope - instantly picks up vehicles/cargo crates
+		Extended Rope - instantly picks up anything that can be picked up nearby
 	- Misc:
 		Infinite Nitro - infinite nitro for cars
 		Anti Break Vehicle - doesnt break vehicle if you hit roadspikes or someone shoots your vehicle
@@ -105,6 +109,7 @@ Misc:
 		Never Unload World - never unloads the world
 		Open Secretbases - opens all the doors from secretbases
 		Click Lightning - spams lightnings on click (client)
+		Click Nuke - spams nuke on click (client)
 		Teleport Football To Goal - teleports big football to goal to give everyone on the server a "DinoBone" spoiler
 			*⚠️ You need to be near the ball
 			* https://jailbreak.fandom.com/wiki/Soccer_Ball_Challenge
@@ -134,6 +139,9 @@ Misc:
 		Range - range of breakout aura
 	   *⚠️ You have to be a Criminal or Prisoner
 	   *⚠️ Only works every 20 seconds
+	- Fortnite Mode:
+		Master Switch - enables fortnite mode
+		* makes you dance "Orange Justice"
 	- Dropped Cash Aura:
 		Master Switch - enables dropped cash aura
 		Range - range of dropped cash aura
@@ -143,6 +151,7 @@ Misc:
 	- Disablers:
 		Disable Lasers - disables lasers damage
 		Disable Cameras - disables cameras damage
+		Disable Automatic Unparachute - disables automatic unparachutes when you don't have "space" for a parachute
 		Disable Military Turrets - disables military turrets firing
 		Disable House Turrets - disables turrets placed in a house
 		Disable Anti Flight Zones - disables anti flight zones when using a jetpack
@@ -167,6 +176,8 @@ Robbery:
 	- Jewelry:
 		Automatic Grab Nearby Jewels - automatically grabs nearby jewels
 	- Museum:
+		Automatic Resolve Puzzle - automatically resolves both puzzles
+		     *⚠️ Break Museum Puzzle has to be disabled
 		Automatic Place Dynamite - automatically places dynamite when a another player places it
 		Automatic Fill Bag - automatically fills bag
 		     *⚠️ You have to be in the museum and near a collectable item
@@ -189,11 +200,13 @@ Robbery:
 		Call Cargoplane - calls cargoplane
 		     *⚠️ You have to be in Police team
 	- Mansion:
-		Disable Traps - disables traps
+		Automatic Elevator Entry - automatically entries elevator when robbery is open
+		Automatic Trigger Boss Fight - automatically triggers boss fight when robbery begins
 		Anti Boss Attack - disables boss attacks
 		Anti Boss Ragdoll - disables boss ragdoll
 		Break NPCs - npcs will not target you anymore
 		     *⚠️ You may still get shot at when NPCs are targeting others
+		Disable Traps - disables traps
 	- Trains:
 		Automatic Fill Bag - automatically fills the bag with collectables when near a passenger train
 		     *⚠️ You have to be in Criminal team
