@@ -1,4 +1,6 @@
 return function(p1, p2)
+    p1 = tostring(p1)
+    p2 = tostring(p2)
     if p1 == "Police" then
         if p2 == "Criminal" then
             return true
