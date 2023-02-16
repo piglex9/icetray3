@@ -1,5 +1,4 @@
 local phrases = {
-    "I BECAME PRESIDENT OF CAMBODIA AND IMPLEMENTED BREATHING TAX ON GYPSY";
     "asta se intampla daca nu folosesti icetray.lua";
     "esti un negru";
     "hahahaha slabule 🤣";
@@ -32,6 +31,17 @@ local phrases_new = {
                     type4 = {
                         "am ceva de spus";
                         "SAMIBAGPULANBOZGORI";
+                    };
+                    type5 = {
+                        "a";
+                        "b";
+                        "t";
+                        true;
+                        "lalalal please shoot a bullet inside my head";
+                        "test";
+                        false;
+                        1;
+                        "fglasglsadglasslg";
                     };
 }
 
