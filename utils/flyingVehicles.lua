@@ -11,5 +11,7 @@ return {
     CrewCapsule = true;
     Lia = true;
     Stunt = true;
-    PrivateJet = true;
+    n_d = {
+        PrivateJet = true;
+    };
 }
