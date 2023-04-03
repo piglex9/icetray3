@@ -7,7 +7,7 @@ features list: https://github.com/piglex9/icetray3/blob/main/features.txt
 supported executors:
    - Synapse X (https://x.synapse.to/)
    - ScriptWare (https://script-ware.com/)
-.. other exploits may or may not work.
+Other exploits may or may not work.
 
 functions required to run ice tray: https://github.com/piglex9/icetray3/blob/main/functions.txt
 
