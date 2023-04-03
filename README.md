@@ -1,12 +1,15 @@
 # icetray3
 
 icetray3 is a overpowered Roblox Jailbreak script with over 150+ features and counting
+
 game link: https://www.roblox.com/games/606849621/Jailbreak
+
 features list: https://github.com/piglex9/icetray3/blob/main/features.txt
 
 supported executors:
    - Synapse X (https://x.synapse.to/)
    - ScriptWare (https://script-ware.com/)
+   
 Other exploits may or may not work.
 
 functions required to run ice tray: https://github.com/piglex9/icetray3/blob/main/functions.txt
