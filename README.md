@@ -17,4 +17,5 @@ functions required to run ice tray: https://github.com/piglex9/icetray3/blob/mai
 for help or questions join ice tray discord server: https://discord.gg/icetray
 
 We are NOT responsible for any bans. Do NOT use ice tray on accounts you care about.
+
 created by alex9#0001
