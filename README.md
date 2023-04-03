@@ -1,15 +1,17 @@
 # icetray3
 
-ROBLOX JAILBREAK SCRIPT "ICE TRAY V3"
-
-game: https://www.roblox.com/games/606849621/Jailbreak
+icetray3 is a overpowered Roblox Jailbreak script with over 150+ features and counting
+game link: https://www.roblox.com/games/606849621/Jailbreak
+features list: https://github.com/piglex9/icetray3/blob/main/features.txt
 
 supported executors:
-   - PAID: Synapse X (https://x.synapse.to/)
-   - PAID: ScriptWare (https://script-ware.com/)
+   - Synapse X (https://x.synapse.to/)
+   - ScriptWare (https://script-ware.com/)
+.. other exploits may or may not work.
 
-other exploits may or may not work.
+functions required to run ice tray: https://github.com/piglex9/icetray3/blob/main/functions.txt
 
-💀 We ban cheaters. Don't cheat!
+for help or questions join ice tray discord server: https://discord.gg/icetray
 
-alex9#0001
+We are NOT responsible for any bans. Do NOT use ice tray on accounts you care about.
+created by alex9#0001
