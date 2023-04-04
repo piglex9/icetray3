@@ -1,6 +1,7 @@
 --LPH_NO_VIRTUALIZE(function()
 
 return function()
+    print("AAAAAAAAAAAAAAAAAAAAAAAAA")
     local player = players.LocalPlayer
     local getrawmetatable = global.functions.getrawmetatable
     local newcclosure = global.functions.newcclosure
