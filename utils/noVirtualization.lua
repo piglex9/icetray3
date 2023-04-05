@@ -1,7 +1,6 @@
 --LPH_NO_VIRTUALIZE(function()
 
 return function()
-    print("AAAAAAAAAAAAAAAAAAAAAAAAA")
     local player = players.LocalPlayer
     local getrawmetatable = global.functions.getrawmetatable
     local newcclosure = global.functions.newcclosure
@@ -13,9 +12,7 @@ return function()
     local idx = mt.__index
     local function newidxx(self, name, val)
         if name == "FieldOfView" then
-            if global.ui_status.fov ~= 70 then
-                val = global.ui_status.fov
-            end
+            val = global.ui_status.fov or 70
             return newidx(self, name, val)
         end
         if name == "WalkSpeed" then
