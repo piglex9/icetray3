@@ -4,7 +4,7 @@ local phrases = {
     "doar prosti nu folosesc ice tray 🤡";
     "prea usor cu ice tray";
     "tava de gheata 🥶";
-    "bozgor";
+    "buy ice tray v4";
     "😎 agent spharangel kox 😎";
     "prea usor pentru agent spharangel kox";
     "ICE TRAY 55 - 0 ANTI HACK";
