@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2d1c5a77ee6b90d6bb13cd6c22f06eaa.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/piglex9/icetray3/main/src/hack_v3146.lua"))()
